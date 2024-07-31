@@ -28,29 +28,29 @@ of 3 numbers.
 ```
 7. Write a program to input marks of five subjects Physics, Chemistry,
 Biology, Mathematics and Computer. Calculate percentage and grade
-according to following:
-∙ Percentage >= 90% : Grade A
-∙ Percentage >= 80% : Grade B
-∙ Percentage >= 70% : Grade C
-∙ Percentage >= 60% : Grade D
-∙ Percentage >= 40% : Grade E
-∙ Percentage < 40% : Grade F
+according to following:  <br/>
+∙ Percentage >= 90% : Grade A  <br/>
+∙ Percentage >= 80% : Grade B  <br/>
+∙ Percentage >= 70% : Grade C  <br/>
+∙ Percentage >= 60% : Grade D  <br/>
+∙ Percentage >= 40% : Grade E  <br/>
+∙ Percentage < 40% : Grade F  <br/>
 
 8. Write a program to input basic salary of an employee and calculate its Gross
-salary according to following:
-∙ Basic Salary <= 10000 : HRA = 20%, DA = 80%
-∙ Basic Salary <= 20000 : HRA = 25%, DA = 90%
-∙ Basic Salary > 20000 : HRA = 30%, DA = 95%
+salary according to following:  <br/>
+∙ Basic Salary <= 10000 : HRA = 20%, DA = 80%  <br/>
+∙ Basic Salary <= 20000 : HRA = 25%, DA = 90%  <br/>
+∙ Basic Salary > 20000 : HRA = 30%, DA = 95%  <br/>
 
 9. Write a menu driven program in Java to accept a number and perform the
-following operations depending on the user's choice:
-∙ Entered number is a Buzz number or not.
-∙ Entered number is even or odd.
-∙ Entered number is positive or negative.
+following operations depending on the user's choice:  <br/>
+∙ Entered number is a Buzz number or not.  <br/>
+∙ Entered number is even or odd.  <br/>
+∙ Entered number is positive or negative.  <br/>
 
 11. Write a java program to develop a Menu driven program and Subscription
-services of an OTT platform such as:
-Basics - 499
-Kids- 200 + Basics
-Sports- 700 + Basics
-English - 300 + Basics
+services of an OTT platform such as:  <br/>
+Basics - 499  <br/>
+Kids- 200 + Basics  <br/>
+Sports- 700 + Basics  <br/>
+English - 300 + Basics  <br/>
