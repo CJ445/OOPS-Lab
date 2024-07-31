@@ -1,12 +1,10 @@
-#EX.NO.1 USAGE OF CONTROL STATEMENTS FOR
-
-## LOGICAL BUILDING
+# EX.NO.1 USAGE OF CONTROL STATEMENTS FOR LOGICAL BUILDING
 
 ## Choose your questions based on the formulae given below:
 1. Regno. (Last 2 digits) % 2 = 1 1,3,5,7,9
 2. Regno. (Last 2 digits) % 2 = 0 2,4,6,8,10
 
-Questions
+## Questions
 1. Write a java program to read the age of a candidate and determine whether
 he is eligible to cast his/her own vote.
 2. Write a java program that takes 3 inputs from the user and prints the greatest
