@@ -12,16 +12,20 @@ of 3 numbers.
 3. Write a java program to find first 10 prime numbers from natural numbers.
 4. Write a java program to find the sum of ‘N’ numbers.
 5. Write a java program to find the following pattern:
-
+```
 *
 * *
 * * *
 * * * *
+```
+
 6. Write a java program to find the following pattern:
+```
 1
 2 3
 4 5 6
 7 8 9 10
+```
 7. Write a program to input marks of five subjects Physics, Chemistry,
 Biology, Mathematics and Computer. Calculate percentage and grade
 according to following:
@@ -43,7 +47,8 @@ following operations depending on the user's choice:
 ∙ Entered number is a Buzz number or not.
 ∙ Entered number is even or odd.
 ∙ Entered number is positive or negative.
-10. Write a java program to develop a Menu driven program and Subscription
+
+11. Write a java program to develop a Menu driven program and Subscription
 services of an OTT platform such as:
 Basics - 499
 Kids- 200 + Basics
