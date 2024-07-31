@@ -1,0 +1,46 @@
+// Question 7
+import java.util.Scanner;
+
+public class GradeCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Array to store subject names
+        String[] subjects = {"Physics", "Chemistry", "Biology", "Mathematics", "Computer"};
+
+        // Array to store subject marks
+        int[] marks = new int[subjects.length];
+
+        // Input marks for each subject
+        for (int i = 0; i < subjects.length; i++) {
+            System.out.printf("Enter marks for %s: ", subjects[i]);
+            marks[i] = scanner.nextInt();
+        }
+
+        // Calculate total marks
+        int totalMarks = 0;
+        for (int mark : marks) {
+            totalMarks += mark;
+        }
+
+        // Calculate percentage
+        double percentage = (totalMarks / (double) (subjects.length * 100)) * 100;
+
+        // Determine grade based on percentage
+        char grade = switch ((int) percentage / 10) {
+            case 10, 9 -> 'A';
+            case 8 -> 'B';
+            case 7 -> 'C';
+            case 6 -> 'D';
+            case 5, 4 -> 'E';
+            default -> 'F';
+        };
+
+        // Display results
+        System.out.println("Total Marks: " + totalMarks);
+        System.out.printf("Percentage: %.2f%%\n", percentage);
+        System.out.println("Grade: " + grade);
+
+        scanner.close(); // Close the scanner
+    }
+}
